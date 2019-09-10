@@ -92,10 +92,13 @@ NODE InsertFront(NODE F)
         return F;
     }
 }
+
 NODE InsertRear(NODE F)
+
 {
     NODE RN;
     RN = CreateNode();
+    
     printf("Enter the last element\n");
     scanf("%d",&RN->info);
     
