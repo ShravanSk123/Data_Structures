@@ -1,3 +1,4 @@
+//Stack operations in O(1) time --space-time tradeoff
 import java.util.*;
 
 class ModStack{
