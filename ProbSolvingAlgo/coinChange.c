@@ -1,7 +1,7 @@
-# Minimum coins required to obtain given amount
+/* Minimum coins required to obtain given amount
 # using dynamic programming
-#problem statement -- https://leetcode.com/problems/coin-change/
-
+# problem statement -- https://leetcode.com/problems/coin-change/
+*/
 int coinChange(int* coins, int coinsSize, int amount){
     
     int dp[coinsSize+1][amount+1];
@@ -26,4 +26,4 @@ int coinChange(int* coins, int coinsSize, int amount){
     return dp[coinsSize][amount];
 }
 
-#time complexity is O(amt*n)
+//time complexity is O(amt*n)
